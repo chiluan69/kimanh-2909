@@ -1,17 +1,17 @@
 const textConfig = {
-  text1: "Hế luu Bx!",
-  text2: "Ox có điều này muốn hỏi Bx nhớ phải trả lời thật lòng nhaaa.",
-  text3: "Bx yêu Ox có phải không nào ._.",
-  text4: "Nếu Bx ko trả lời mà thoát ra tức là muốn làm vợ Ox rùi đó nha :v",
-  text5: "Khom iu Ox nha :))",
-  text6: "Iu Ox nhèo nhèo :))",
-  text7: "Sao Bx iu Ox vại. :vvvv",
-  text8: "Gửi cho Ox di <3",
-  text9: "Vì Ox đẹp try vlllll",
-  text10: "Iu Vk quá luôn ó",
+  text1: "Xin chào Kim Anh !",
+  text2: "Tớ làm mấy trò này bằng tấm lòng đó... Cậu nhớ đọc kỹ ạ !!!",
+  text3: "Cậu ơi, cậu có muốn cho tớ cơ hội không, ý tớ là tớ đang cố gắng không chỉ </br> một mà vừa cố có cái gì đó đủ đầy cho bản thân lẫn người bên cạnh, ý tớ hơi dài dòng như mong cậu hiểu tớ ạ. Tớ muốn được chăm sóc cậu hiện tại có được không ạ, tớ biết là có khoảng cách nhưng cậu cần thì tớ có mặt nhé.",
+  text4: "Nếu cậu thoát ra là đồng ý nha Huhu",
+  text5: "Không đồng ý đâu ạ :((",
+  text6: "Mình đồng ý luôn :))",
+  text7: "Cậu có muốn nói gì với tớ hong, đưa ra tất cả các yêu cầu đối với tớ nếu cậu muốn ạ ! ",
+  text8: "Gửi cho tớ nha <3",
+  text9: "",
+  text10: "",
   text11:
-    "Lấy Ox lun nha Bx :DDDDDDDDDDDDD",
-  text12: "Okii lunn <3",
+    "Cậu cho tớ cơ hội nhé, tớ mong mình sẽ thành công cho ước mơ của tớ có cậu trong đó <3 ",
+  text12: "Dạ <3",
 };
 
 $(document).ready(function () {
@@ -35,10 +35,10 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text1,
       text: textConfig.text2,
-      imageUrl: "img/cuteCat.jpg",
+      imageUrl: "img/kim-anh.jpg",
       imageWidth: 300,
       imageHeight: 300,
-      background: '#fff url("img/iput-bg.jpg")',
+      background: '#fff url("img/kim-anh-bg.jpg")',
       imageAlt: "Custom image",
     }).then(function () {
       $(".content").show(200);
@@ -113,7 +113,7 @@ $(document).ready(function () {
       html: true,
       width: 900,
       padding: "3em",
-      html: "<input type='text' class='form-control' id='txtReason'  placeholder='Whyyy'>",
+      html: "<input type='text' class='form-control' id='txtReason'  placeholder='Đừng ngại đưa ra yêu cầu, vì tớ rất là tận tâm ạ ! '>",
       background: '#fff url("img/iput-bg.jpg")',
       backdrop: `
                     rgba(0,0,123,0.4)

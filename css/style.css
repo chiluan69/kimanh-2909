@@ -1,22 +1,25 @@
 .content {
-    position: relative;
-    z-index: 3;
-  }
-  #no{
-    position: absolute;
-    display: inline-block;
-    left: 35%; 
-    top: 40vh;
-    -webkit-transition: all 0.1s ease-out;
-  }
-  #yes{
-    position: absolute;
-    display: inline-block;
-    left: 70%; 
-    top: 40vh;
-    -webkit-transition: all 0.3s ease-out;
-  }
-#bg{
+  position: relative;
+  z-index: 3;
+}
+
+#no {
+  position: absolute;
+  display: inline-block;
+  left: 35%;
+  top: 40vh;
+  -webkit-transition: all 0.1s ease-out;
+}
+
+#yes {
+  position: absolute;
+  display: inline-block;
+  left: 70%;
+  top: 40vh;
+  -webkit-transition: all 0.3s ease-out;
+}
+
+#bg {
   position: fixed;
   top: 0;
   right: 0;
@@ -31,9 +34,12 @@
   background-position: 50%;
   -webkit-filter: blur(4px);
 }
-.swal2-title, .swal2-content{
-  color: azure !important;
+
+.swal2-title,
+.swal2-content {
+  color: #ff5e00c4 !important;
 }
+
 .swal2-popup {
   border-radius: 15px !important;
 }
@@ -42,8 +48,9 @@ header h2 {
   font-family: 'Pacifico';
   font-size: 80px;
   text-align: center;
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
+
 header h4 {
   font-family: 'Pacifico';
   text-align: center;
@@ -56,24 +63,27 @@ header h4 {
     text-align: center;
     margin-bottom: 30px;
   }
+
   header h4 {
     font-family: 'Pacifico';
     text-align: center;
     padding: 15px;
   }
-  #no{
+
+  #no {
     position: absolute;
     display: inline-block;
-    left: 7%; 
+    left: 7%;
     top: 40vh;
     font-size: 14px;
     padding: 3px;
     -webkit-transition: all 0.1s ease-out;
   }
-  #yes{
+
+  #yes {
     position: absolute;
     display: inline-block;
-    left: 58%; 
+    left: 58%;
     top: 40vh;
     font-size: 14px;
     padding: 3px;
