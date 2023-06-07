@@ -1,14 +1,14 @@
 const textConfig = {
   text1: "Xin chào Kim Anh !",
   text2: "Tớ làm mấy trò này bằng tấm lòng đó... Cậu nhớ đọc kỹ ạ !!!",
-  text3: "Cậu ơi, cậu có muốn cho tớ cơ hội không, ý tớ là tớ đang cố gắng không chỉ </br> một mà vừa cố có cái gì đó đủ đầy cho bản thân lẫn người bên cạnh, ý tớ hơi dài dòng như mong cậu hiểu tớ ạ. Tớ muốn được chăm sóc cậu hiện tại có được không ạ, tớ biết là có khoảng cách nhưng cậu cần thì tớ có mặt nhé.",
+  text3: "Cậu ơi, cậu có muốn cho tớ cơ hội không,  <br>ý tớ là tớ đang cố gắng không chỉ một mà vừa cố có cái gì đó đủ đầy cho bản thân lẫn người bên cạnh, <br> ý tớ hơi dài dòng như mong cậu hiểu tớ ạ. <br>Tớ muốn được chăm sóc cậu hiện tại(cả đời ạ) có được không ạ, tớ biết là có khoảng cách nhưng cậu cần thì tớ có mặt nhé.",
   text4: "Nếu cậu thoát ra là đồng ý nha Huhu",
   text5: "Không đồng ý đâu ạ :((",
   text6: "Mình đồng ý luôn :))",
   text7: "Cậu có muốn nói gì với tớ hong, đưa ra tất cả các yêu cầu đối với tớ nếu cậu muốn ạ ! ",
   text8: "Gửi cho tớ nha <3",
-  text9: "",
-  text10: "",
+  text9: "Hỏng biết nữa, anh thật đáng yêu quá đê !!! ",
+  text10: "Dạ, Em cũng đáng yêu ghê hihi",
   text11:
     "Cậu cho tớ cơ hội nhé, tớ mong mình sẽ thành công cho ước mơ của tớ có cậu trong đó <3 ",
   text12: "Dạ <3",
@@ -113,7 +113,7 @@ $(document).ready(function () {
       html: true,
       width: 900,
       padding: "3em",
-      html: "<input type='text' class='form-control' id='txtReason'  placeholder='Đừng ngại đưa ra yêu cầu, vì tớ rất là tận tâm ạ ! '>",
+      html: "<input type='text' class='form-control' id='txtReason'  placeholder='Nói gì với anh hông'>",
       background: '#fff url("img/iput-bg.jpg")',
       backdrop: `
                     rgba(0,0,123,0.4)

@@ -16,7 +16,7 @@
             height: 100%;
             padding: 0;
             margin: 0;
-            background: #000;
+            background: black;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -283,8 +283,8 @@
                 // helper function to create the path
                 function to(t) {
                     var point = pointOnHeart(t);
-                    point.x = settings.particles.size / 2 + point.x * settings.particles.size / 350;
-                    point.y = settings.particles.size / 2 - point.y * settings.particles.size / 350;
+                    point.x = settings.particles.size / 2 + point.x * settings.particles.size / 450;
+                    point.y = settings.particles.size / 2 - point.y * settings.particles.size / 450;
                     return point;
                 }
                 // create the path
@@ -299,7 +299,7 @@
                 }
                 context.closePath();
                 // create the fill
-                context.fillStyle = '#FF5CA1';
+                context.fillStyle = '#00FFFF';
                 context.fill();
                 // create the image
                 var image = new Image();
@@ -313,7 +313,7 @@
                 requestAnimationFrame(render);
 
                 // update time
-                var newTime = new Date().getTime() / 1000,
+                var newTime = new Date().getTime() / 2000,
                     deltaTime = newTime - (time || newTime);
                 time = newTime;
 
